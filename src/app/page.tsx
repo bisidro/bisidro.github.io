@@ -13,18 +13,18 @@ export default function PersonalWebsite() {
         <div className="container flex h-14 items-center px-6 md:px-10">
           <div className="mr-4 flex">
             <Link to="/" className="mr-6 flex items-center space-x-2">
-              <span className="font-bold font-poppins">John Doe</span>
+              <span className="font-bold font-poppins text-foreground">John Doe</span>
             </Link>
           </div>
           <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
             <nav className="flex items-center space-x-6">
-              <a href="#about" className="text-sm font-medium hover:text-secondary">
+              <a href="#about" className="text-sm font-medium text-foreground hover:text-secondary">
                 About
               </a>
-              <a href="#experience" className="text-sm font-medium hover:text-secondary">
+              <a href="#experience" className="text-sm font-medium text-foreground hover:text-secondary">
                 Experience
               </a>
-              <a href="#contact" className="text-sm font-medium hover:text-secondary">
+              <a href="#contact" className="text-sm font-medium text-foreground hover:text-secondary">
                 Contact
               </a>
             </nav>
