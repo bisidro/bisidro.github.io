@@ -1,5 +1,5 @@
 /** @type { import("next").NextConfig } */
-const repo = 'bisidro.github.io';
+const repo = 'bisidro';
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
