@@ -65,6 +65,8 @@ const config = {
       fontFamily: {
         sans: ["var(--font-inter)", "Inter", "Lato", "sans-serif"],
         heading: ["var(--font-poppins)", "Poppins", "Work Sans", "sans-serif"],
+        poppins: ["Poppins", "Work Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {

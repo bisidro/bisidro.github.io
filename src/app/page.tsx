@@ -13,20 +13,20 @@ export default function PersonalWebsite() {
         <div className="container flex h-14 items-center px-6 md:px-10">
           <div className="mr-4 flex">
             <Link to="/" className="mr-6 flex items-center space-x-2">
-              <span className="font-bold">John Doe</span>
+              <span className="font-bold font-poppins">John Doe</span>
             </Link>
           </div>
           <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
             <nav className="flex items-center space-x-6">
-              <Link to="#about" className="text-sm font-medium hover:text-secondary">
+              <a href="#about" className="text-sm font-medium hover:text-secondary">
                 About
-              </Link>
-              <Link to="#experience" className="text-sm font-medium hover:text-secondary">
+              </a>
+              <a href="#experience" className="text-sm font-medium hover:text-secondary">
                 Experience
-              </Link>
-              <Link to="#contact" className="text-sm font-medium hover:text-secondary">
+              </a>
+              <a href="#contact" className="text-sm font-medium hover:text-secondary">
                 Contact
-              </Link>
+              </a>
             </nav>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function PersonalWebsite() {
 
       {/* Hero Section */}
       <section id="hero" className="container py-8 md:py-16 px-6 md:px-10">
-        <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-          <div className="space-y-4">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center min-h-[400px]">
+          <div className="space-y-4 text-left items-start flex flex-col justify-center h-full">
             <h1
               className="font-bold text-4xl sm:text-5xl md:text-[2.5rem]"
               style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
@@ -47,13 +47,13 @@ export default function PersonalWebsite() {
               I create beautiful, functional web applications with modern technologies. Passionate about clean code,
               great user experiences, and continuous learning.
             </p>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row">
+            <div className="flex flex-col gap-2 min-[400px]:flex-row justify-start">
               <Button
                 size="lg"
                 className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90"
                 asChild
               >
-                <Link to="#contact">Get In Touch</Link>
+                <a href="#contact">Get In Touch</a>
               </Button>
               <Button
                 variant="outline"
@@ -67,7 +67,7 @@ export default function PersonalWebsite() {
                 </Link>
               </Button>
             </div>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 justify-start">
               <Button variant="ghost" size="icon" className="text-foreground hover:bg-muted" asChild>
                 <Link to="https://linkedin.com" target="_blank">
                   <Linkedin className="h-5 w-5" />
@@ -82,7 +82,7 @@ export default function PersonalWebsite() {
               </Button>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center h-full">
             <div className="relative">
               <img
                 src="/placeholder.svg"

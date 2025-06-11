@@ -42,12 +42,16 @@
   --border: 30 22% 55%;
   --input: 30 22% 55%;
   --ring: 30 22% 55%;
+
+  --font-poppins: "Poppins", "Work Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 @layer base {
   body {
     @apply bg-background text-foreground;
     line-height: 1.6;
+    font-family: var(--font-inter), Inter, "Work Sans", sans-serif;
   }
 
   h1,
