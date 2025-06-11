@@ -1,0 +1,34 @@
+name: Deploy Next.js (Static Export) to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node (using pnpm)
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: false
+
+      - name: Setup Node (using node 20)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies (pnpm)
+        run: pnpm install
+
+      - name: Build (pnpm)
+        run: pnpm run build
+
+      - name: Deploy (using gh-pages branch)
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: out 
