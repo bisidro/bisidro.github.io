@@ -1,4 +1,4 @@
-name: Deploy Next.js (Static Export) to GitHub Pages
+name: Deploy Vite Site to GitHub Pages
 
 on:
   push:
@@ -31,5 +31,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: ./out
+          folder: ./dist
           token: ${{ secrets.GH_PAT }} 
