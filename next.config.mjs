@@ -4,5 +4,6 @@ const repo = 'bisidro.github.io';
 module.exports = {
   output: 'export',
   images: { unoptimized: true },
-  assetPrefix: `/${repo}/`,
+  //basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`
 };
