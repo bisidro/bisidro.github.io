@@ -3,14 +3,14 @@ import type { Config } from "tailwindcss"
 const config = {
   content: [
     "./pages/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{ts,tsx,css}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx,css}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./hooks/**/*.{js,ts,jsx,tsx,mdx}",
     "./lib/**/*.{js,ts,jsx,tsx,mdx}",
     "./public/**/*.svg",
     "./styles/**/*.{js,ts,jsx,tsx,mdx,css,scss,sass,less,styl}",
-    "*.{js,ts,jsx,tsx,mdx}"
+    "*.{js,ts,jsx,tsx,mdx,css}"
   ],
   theme: {
     container: {
