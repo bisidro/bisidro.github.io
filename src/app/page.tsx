@@ -48,7 +48,7 @@ export default function PersonalWebsite() {
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-start">
               <Button
                 size="lg"
-                className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground"
+                className="rounded-button bg-primary text-primary-foreground border border-transparent px-5 py-3 font-medium transition-colors hover:bg-primary/90 hover:text-primary-foreground hover:border-ring"
                 asChild
               >
                 <a href="#contact">Get In Touch</a>

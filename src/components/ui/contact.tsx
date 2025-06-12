@@ -59,8 +59,8 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground px-5 py-3 font-medium transition-colors"
-        >
+          className="rounded-button bg-primary text-primary-foreground border border-transparent px-5 py-3 font-medium transition-colors hover:bg-primary/90 hover:text-primary-foreground hover:border-ring"
+          >
           Submit
         </button>
       </form>
