@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../co
 import { Badge } from "../components/ui/badge"
 import { Linkedin, Mail, Download } from "lucide-react"
 import { Link } from "react-router-dom"
+import { ContactForm } from "../components/ui/contact"
 
 export default function PersonalWebsite() {
   return (
@@ -38,7 +39,6 @@ export default function PersonalWebsite() {
           <div className="space-y-4 text-left items-start flex flex-col justify-center h-full">
             <h1
               className="font-bold text-4xl sm:text-5xl md:text-[2.5rem]"
-              style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
             >
               Hi, I'm <span className="text-secondary">Bianca Isidro</span>
             </h1>
@@ -72,12 +72,6 @@ export default function PersonalWebsite() {
                   <span className="sr-only">LinkedIn</span>
                 </Link>
               </Button>
-              <Button variant="ghost" size="icon" className="text-foreground hover:bg-muted" asChild>
-                <Link to="mailto:john@example.com">
-                  <Mail className="h-5 w-5" />
-                  <span className="sr-only">Email</span>
-                </Link>
-              </Button>
             </div>
           </div>
           <div className="flex justify-center items-center h-full">
@@ -100,7 +94,6 @@ export default function PersonalWebsite() {
           <div className="mx-auto max-w-3xl text-center">
             <h2
               className="font-bold text-3xl sm:text-4xl md:text-[2.25rem] mb-8"
-              style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
             >
               About Me
             </h2>
@@ -112,7 +105,6 @@ export default function PersonalWebsite() {
                 <CardHeader>
                   <CardTitle
                     className="font-semibold"
-                    style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                   >
                     Technical Skills
                   </CardTitle>
@@ -135,7 +127,6 @@ export default function PersonalWebsite() {
                 <CardHeader>
                   <CardTitle
                     className="font-semibold"
-                    style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                   >
                     Leadership Skills
                   </CardTitle>
@@ -157,7 +148,6 @@ export default function PersonalWebsite() {
                 <CardHeader>
                   <CardTitle
                     className="font-semibold"
-                    style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                   >
                     Tools & Processes
                   </CardTitle>
@@ -184,7 +174,6 @@ export default function PersonalWebsite() {
           <div className="mx-auto max-w-3xl">
             <h2
               className="font-bold text-3xl sm:text-4xl md:text-[2.25rem] mb-8 text-center"
-              style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
             >
               Experience
             </h2>
@@ -195,7 +184,6 @@ export default function PersonalWebsite() {
                     <div>
                       <CardTitle
                         className="font-semibold"
-                        style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                       >
                         Engineering Manager
                       </CardTitle>
@@ -229,7 +217,6 @@ export default function PersonalWebsite() {
                     <div>
                       <CardTitle
                         className="font-semibold"
-                        style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                       >
                         Senior Engineering Manager
                       </CardTitle>
@@ -263,7 +250,6 @@ export default function PersonalWebsite() {
                     <div>
                       <CardTitle
                         className="font-semibold"
-                        style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                       >
                         Consulting Manager
                       </CardTitle>
@@ -303,37 +289,10 @@ export default function PersonalWebsite() {
           <div className="mx-auto max-w-2xl text-center">
             <h2
               className="font-bold text-3xl sm:text-4xl md:text-[2.25rem] mb-8"
-              style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
             >
               Get In Touch
             </h2>
-            <p className="text-lg mb-8">
-              I'm always interested in new opportunities and interesting projects. Whether you have a question or just
-              want to say hi, feel free to reach out!
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground"
-                asChild
-              >
-                <Link to="mailto:john@example.com">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Send Email
-                </Link>
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="rounded-button border-border text-foreground hover:bg-muted"
-                asChild
-              >
-                <Link to="https://linkedin.com/in/biancaisidro/" target="_blank">
-                  <Linkedin className="mr-2 h-4 w-4" />
-                  LinkedIn
-                </Link>
-              </Button>
-            </div>
+            <ContactForm />
           </div>
         </div>
       </section>
@@ -348,12 +307,6 @@ export default function PersonalWebsite() {
                 <Link to="https://linkedin.com/in/biancaisidro/" target="_blank">
                   <Linkedin className="h-4 w-4" />
                   <span className="sr-only">LinkedIn</span>
-                </Link>
-              </Button>
-              <Button variant="ghost" size="icon" className="text-foreground hover:bg-muted" asChild>
-                <Link to="mailto:john@example.com">
-                  <Mail className="h-4 w-4" />
-                  <span className="sr-only">Email</span>
                 </Link>
               </Button>
             </div>
