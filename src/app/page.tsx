@@ -146,10 +146,10 @@ export default function PersonalWebsite() {
                     <Badge variant="secondary">Coaching and Mentorship</Badge>
                     <Badge variant="secondary">Remote Team Leadership</Badge>
                     <Badge variant="secondary">Psychological Safety</Badge>
+                    <Badge variant="secondary">Change Management</Badge>
                     <Badge variant="secondary">Building High Performing Teams</Badge>
                     <Badge variant="secondary">Cross-functional Collaboration</Badge>
                     <Badge variant="secondary">Roadmap Planning and Execution</Badge>
-                    <Badge variant="secondary">Change Management</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -164,12 +164,12 @@ export default function PersonalWebsite() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Agile</Badge>
-                    <Badge variant="secondary">Sprint Planning and Retrospectives</Badge>
                     <Badge variant="secondary">DORA Metrics</Badge>
-                    <Badge variant="secondary">Monitoring and Incident Management</Badge>
                     <Badge variant="secondary">Feedback and Recognition</Badge>
+                    <Badge variant="secondary">Agile</Badge>
                     <Badge variant="secondary">Performance Reviews and Calibration</Badge>
+                    <Badge variant="secondary">Sprint Planning and Retrospectives</Badge>
+                    <Badge variant="secondary">Monitoring and Incident Management</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -197,25 +197,28 @@ export default function PersonalWebsite() {
                         className="font-semibold"
                         style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                       >
-                        Senior Frontend Developer
+                        Engineering Manager
                       </CardTitle>
-                      <CardDescription className="text-base">Tech Company Inc.</CardDescription>
+                      <CardDescription className="text-base">Saas Startup</CardDescription>
                     </div>
                     <Badge variant="outline" className="border-border">
-                      2022 - Present
+                      2022 - 2025
                     </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-foreground/80 mb-4">
-                    Led the development of a customer-facing web application serving 100k+ users. Implemented modern
-                    React patterns and improved performance by 40%.
+                  Led and scaled a remote engineering team, delivering impactful product features and significantly improving reliability. Oversaw key technical initiatives including a microservices migration, a product rebuild, and sustained efforts to reduce technical debt, all while fostering a supportive, high-performing team culture.
                   </p>
                   <div className="flex flex-wrap gap-2">
+                    <Badge variant="secondary">Python</Badge>
+                    <Badge variant="secondary">GoLang</Badge>
                     <Badge variant="secondary">React</Badge>
-                    <Badge variant="secondary">TypeScript</Badge>
-                    <Badge variant="secondary">Next.js</Badge>
-                    <Badge variant="secondary">GraphQL</Badge>
+                    <Badge variant="secondary">Typescript</Badge>
+                    <Badge variant="secondary">PostgreSQL</Badge>
+                    <Badge variant="secondary">Terraform</Badge>
+                    <Badge variant="secondary">GCP</Badge>
+                    <Badge variant="secondary">CI/CD</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -228,25 +231,28 @@ export default function PersonalWebsite() {
                         className="font-semibold"
                         style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                       >
-                        Full Stack Developer
+                        Senior Engineering Manager
                       </CardTitle>
-                      <CardDescription className="text-base">Startup Solutions</CardDescription>
+                      <CardDescription className="text-base">Fitness Tech Company</CardDescription>
                     </div>
                     <Badge variant="outline" className="border-border">
-                      2020 - 2022
+                      2021 - 2022
                     </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-foreground/80 mb-4">
-                    Built and maintained multiple web applications from concept to deployment. Collaborated with design
-                    and product teams to deliver user-centered solutions.
+                  Managed a backend team supporting a live streaming platform, and led the design of a federated GraphQL and backend-for-frontend (BFF) architecture. Drove modernization of backend services to improve scalability, maintainability, and platform consistency.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Vue.js</Badge>
                     <Badge variant="secondary">Node.js</Badge>
-                    <Badge variant="secondary">MongoDB</Badge>
+                    <Badge variant="secondary">Python</Badge>
+                    <Badge variant="secondary">NoSQL</Badge> 
+                    <Badge variant="secondary">GraphQL</Badge>
+                    <Badge variant="secondary">APIs and Integrations</Badge>
                     <Badge variant="secondary">AWS</Badge>
+                    <Badge variant="secondary">Serverless</Badge>
+                    <Badge variant="secondary">System Design</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -259,25 +265,30 @@ export default function PersonalWebsite() {
                         className="font-semibold"
                         style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                       >
-                        Junior Developer
+                        Consulting Manager
                       </CardTitle>
-                      <CardDescription className="text-base">Digital Agency</CardDescription>
+                      <CardDescription className="text-base">Consulting Firm</CardDescription>
                     </div>
                     <Badge variant="outline" className="border-border">
-                      2019 - 2020
+                      2016 - 2021
                     </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-foreground/80 mb-4">
-                    Developed responsive websites and web applications for various clients. Gained experience in modern
-                    web technologies and agile development practices.
+                  Delivered end-to-end technical solutions across roles like architect, developer, and delivery manager, while building trusted relationships with client executives. Led multi-functional teams, managed delivery across scope and budget, and designed backend systems and ML pipelines aligned to business goals.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">JavaScript</Badge>
-                    <Badge variant="secondary">PHP</Badge>
-                    <Badge variant="secondary">MySQL</Badge>
-                    <Badge variant="secondary">WordPress</Badge>
+                    <Badge variant="secondary">Python</Badge>
+                    <Badge variant="secondary">Node.js</Badge>
+                    <Badge variant="secondary">React</Badge>
+                    <Badge variant="secondary">Typescript</Badge>
+                    <Badge variant="secondary">SQL</Badge>
+                    <Badge variant="secondary">Terraform</Badge>
+                    <Badge variant="secondary">AWS</Badge>
+                    <Badge variant="secondary">Data Analytics</Badge>
+                    <Badge variant="secondary">Data Pipelines</Badge>
+                    <Badge variant="secondary">Machine Learning</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -317,7 +328,7 @@ export default function PersonalWebsite() {
                 className="rounded-button border-border text-foreground hover:bg-muted"
                 asChild
               >
-                <Link to="https://linkedin.com" target="_blank">
+                <Link to="https://linkedin.com/in/biancaisidro/" target="_blank">
                   <Linkedin className="mr-2 h-4 w-4" />
                   LinkedIn
                 </Link>
