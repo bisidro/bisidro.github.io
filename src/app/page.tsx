@@ -13,7 +13,7 @@ export default function PersonalWebsite() {
         <div className="container flex h-14 items-center px-6 md:px-10">
           <div className="mr-4 flex">
             <Link to="/" className="mr-6 flex items-center space-x-2">
-              <span className="font-bold font-poppins text-foreground">John Doe</span>
+              <span className="font-bold font-poppins text-foreground">Bianca Isidro</span>
             </Link>
           </div>
           <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
@@ -40,17 +40,15 @@ export default function PersonalWebsite() {
               className="font-bold text-4xl sm:text-5xl md:text-[2.5rem]"
               style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
             >
-              Hi, I'm <span className="text-secondary">John Doe</span>
+              Hi, I'm <span className="text-secondary">Bianca Isidro</span>
             </h1>
-            <p className="text-xl md:text-2xl">Full Stack Developer & UI/UX Designer</p>
+            <p className="text-xl md:text-2xl">Software Engineering Manager</p>
             <p className="max-w-[600px] text-foreground/80 md:text-lg">
-              I create beautiful, functional web applications with modern technologies. Passionate about clean code,
-              great user experiences, and continuous learning.
-            </p>
+            I build strong engineering teams and deliver products that are thoughtful, reliable, and aligned with business goals. I’m passionate about clean architecture, impactful execution, and helping people grow.            </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-start">
               <Button
                 size="lg"
-                className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90"
+                className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground"
                 asChild
               >
                 <a href="#contact">Get In Touch</a>
@@ -69,7 +67,7 @@ export default function PersonalWebsite() {
             </div>
             <div className="flex space-x-4 justify-start">
               <Button variant="ghost" size="icon" className="text-foreground hover:bg-muted" asChild>
-                <Link to="https://linkedin.com" target="_blank">
+                <Link to="https://linkedin.com/in/biancaisidro/" target="_blank">
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
@@ -85,8 +83,8 @@ export default function PersonalWebsite() {
           <div className="flex justify-center items-center h-full">
             <div className="relative">
               <img
-                src="/placeholder.svg"
-                alt="John Doe"
+                src="/headshot.jpg"
+                alt="Bianca Isidro"
                 width={400}
                 height={400}
                 className="rounded-full border-4 border-border"
@@ -107,9 +105,7 @@ export default function PersonalWebsite() {
               About Me
             </h2>
             <p className="text-lg mb-8">
-              I'm a passionate full-stack developer with 5+ years of experience building web applications. I love
-              turning complex problems into simple, beautiful designs. When I'm not coding, you'll find me exploring new
-              technologies, contributing to open source, or enjoying the outdoors.
+            I’m an engineering manager with a passion for building great teams and shipping high-quality software. I enjoy solving complex problems through collaboration, thoughtful leadership, and scalable systems. Outside of work, I’m always looking to grow as a leader and find better ways to support people, improve processes, and drive impact.
             </p>
             <div className="grid gap-4 md:grid-cols-3">
               <Card className="border-border bg-background">
@@ -118,33 +114,20 @@ export default function PersonalWebsite() {
                     className="font-semibold"
                     style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                   >
-                    Frontend
+                    Technical Skills
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">React</Badge>
-                    <Badge variant="secondary">Next.js</Badge>
-                    <Badge variant="secondary">TypeScript</Badge>
-                    <Badge variant="secondary">Tailwind CSS</Badge>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="border-border bg-background">
-                <CardHeader>
-                  <CardTitle
-                    className="font-semibold"
-                    style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
-                  >
-                    Backend
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Node.js</Badge>
                     <Badge variant="secondary">Python</Badge>
-                    <Badge variant="secondary">PostgreSQL</Badge>
-                    <Badge variant="secondary">MongoDB</Badge>
+                    <Badge variant="secondary">TypeScript</Badge>
+                    <Badge variant="secondary">React</Badge>
+                    <Badge variant="secondary">Node.js</Badge>
+                    <Badge variant="secondary">NoSQL and SQL</Badge>
+                    <Badge variant="secondary">GraphQL</Badge>
+                    <Badge variant="secondary">Terraform</Badge>
+                    <Badge variant="secondary">CI/CD</Badge>
+                    <Badge variant="secondary">AWS</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -154,15 +137,39 @@ export default function PersonalWebsite() {
                     className="font-semibold"
                     style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
                   >
-                    Tools
+                    Leadership Skills
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Git</Badge>
-                    <Badge variant="secondary">Docker</Badge>
-                    <Badge variant="secondary">AWS</Badge>
-                    <Badge variant="secondary">Figma</Badge>
+                    <Badge variant="secondary">Performance Management</Badge>
+                    <Badge variant="secondary">Coaching and Mentorship</Badge>
+                    <Badge variant="secondary">Remote Team Leadership</Badge>
+                    <Badge variant="secondary">Psychological Safety</Badge>
+                    <Badge variant="secondary">Building High Performing Teams</Badge>
+                    <Badge variant="secondary">Cross-functional Collaboration</Badge>
+                    <Badge variant="secondary">Roadmap Planning and Execution</Badge>
+                    <Badge variant="secondary">Change Management</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="border-border bg-background">
+                <CardHeader>
+                  <CardTitle
+                    className="font-semibold"
+                    style={{ fontFamily: 'var(--font-poppins), Poppins, "Work Sans", sans-serif' }}
+                  >
+                    Tools & Processes
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge variant="secondary">Agile</Badge>
+                    <Badge variant="secondary">Sprint Planning and Retrospectives</Badge>
+                    <Badge variant="secondary">DORA Metrics</Badge>
+                    <Badge variant="secondary">Monitoring and Incident Management</Badge>
+                    <Badge variant="secondary">Feedback and Recognition</Badge>
+                    <Badge variant="secondary">Performance Reviews and Calibration</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -296,7 +303,7 @@ export default function PersonalWebsite() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
-                className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90"
+                className="rounded-button bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground"
                 asChild
               >
                 <Link to="mailto:john@example.com">
@@ -324,10 +331,10 @@ export default function PersonalWebsite() {
       <footer className="border-t border-border bg-background">
         <div className="container py-8 px-6 md:px-10">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-            <p className="text-sm text-foreground/70">© 2024 John Doe. All rights reserved.</p>
+            <p className="text-sm text-foreground/70">© 2025 Bianca Isidro. All rights reserved.</p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="text-foreground hover:bg-muted" asChild>
-                <Link to="https://linkedin.com" target="_blank">
+                <Link to="https://linkedin.com/in/biancaisidro/" target="_blank">
                   <Linkedin className="h-4 w-4" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
