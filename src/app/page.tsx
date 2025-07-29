@@ -42,7 +42,7 @@ export default function PersonalWebsite() {
             >
               Hi, I'm <span className="text-secondary">Bianca Isidro</span>
             </h1>
-            <p className="text-xl md:text-2xl">Software Engineering Manager</p>
+            <p className="text-xl md:text-2xl">Software Engineering Leader</p>
             <p className="max-w-[600px] text-foreground/80 md:text-lg">
             I build strong engineering teams and deliver products that are thoughtful, reliable, and aligned with business goals. I’m passionate about clean architecture, impactful execution, and helping people grow.            </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-start">
@@ -98,7 +98,7 @@ export default function PersonalWebsite() {
               About Me
             </h2>
             <p className="text-lg mb-8">
-            I’m an engineering manager with a passion for building great teams and shipping high-quality software. I enjoy solving complex problems through collaboration, thoughtful leadership, and scalable systems. Outside of work, I’m always looking to grow as a leader and find better ways to support people, improve processes, and drive impact.
+            I’m an engineering leader with a passion for building great teams and shipping high-quality software. I enjoy solving complex problems through collaboration, thoughtful leadership, and scalable systems. Outside of work, I’m always looking to grow as a leader and find better ways to support people, improve processes, and drive impact.
             </p>
             <div className="grid gap-4 md:grid-cols-3">
               <Card className="border-border bg-background">
@@ -196,7 +196,7 @@ export default function PersonalWebsite() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-foreground/80 mb-4">
-                  Led and scaled a remote engineering team, delivering impactful product features and significantly improving reliability. Oversaw key technical initiatives including a microservices migration, a product rebuild, and sustained efforts to reduce technical debt, all while fostering a supportive, high-performing team culture.
+                  Held organizational ownership over platform evolution during a critical growth phase, scaling the engineering team, modernizing architecture, and aligning delivery with revenue-generating product strategy. Drove foundational improvements in engineering culture, systems reliability, and operational maturity.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Badge variant="secondary">Python</Badge>
@@ -229,7 +229,7 @@ export default function PersonalWebsite() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-foreground/80 mb-4">
-                  Managed a backend team supporting a live streaming platform, and led the design of a federated GraphQL and backend-for-frontend (BFF) architecture. Drove modernization of backend services to improve scalability, maintainability, and platform consistency.
+                  Brought engineering leadership continuity to a newly launched livestreaming product, stabilizing production systems and formalizing backend ownership practices. Played a key role in evolving technical infrastructure and team operations to support long-term scale and performance.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Badge variant="secondary">Node.js</Badge>
@@ -251,7 +251,7 @@ export default function PersonalWebsite() {
                       <CardTitle
                         className="font-semibold"
                       >
-                        Consulting Manager
+                        Senior Engineering Manager
                       </CardTitle>
                       <CardDescription className="text-base">Consulting Firm</CardDescription>
                     </div>
@@ -262,7 +262,7 @@ export default function PersonalWebsite() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-foreground/80 mb-4">
-                  Delivered end-to-end technical solutions across roles like architect, developer, and delivery manager, while building trusted relationships with client executives. Led multi-functional teams, managed delivery across scope and budget, and designed backend systems and ML pipelines aligned to business goals.
+                  Led high-impact technical strategy and delivery across client organizations, shaping backend systems, data pipelines, and team structures. Grew from senior engineer to consulting manager while operating as the technical and organizational lead on multi-phase, cross-functional initiatives.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Badge variant="secondary">Python</Badge>
